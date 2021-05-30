@@ -1,0 +1,2 @@
+# simple-redux
+基于redux以及react-redux封装的一个项目，让redux和我们的项目更加的契合。让开发者更简单的使用redux与异步操作进行结合。同时支持一定的定制功能哦。
