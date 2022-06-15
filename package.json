@@ -1,0 +1,12 @@
+{
+  "name": "simple-redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chuxiaxiangyu/simple-redux.git",
+  "author": "Diviner <1551407603@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0"
+  }
+}
