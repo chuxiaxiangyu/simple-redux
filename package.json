@@ -1,13 +1,16 @@
 {
-  "name": "simple-redux",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/chuxiaxiangyu/simple-redux.git",
-  "author": "Diviner <1551407603@qq.com>",
-  "license": "MIT",
-  "dependencies": {
-    "react-redux": "^8.0.2",
-    "redux": "^4.2.0",
-    "redux-thunk": "^2.4.2"
-  }
+    "name": "simple-redux",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/chuxiaxiangyu/simple-redux.git",
+    "author": "Diviner <1551407603@qq.com>",
+    "license": "MIT",
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "querystring": "^0.2.1",
+        "react": "^18.2.0",
+        "react-redux": "^8.0.2",
+        "redux": "^4.2.0",
+        "redux-thunk": "^2.4.2"
+    }
 }
