@@ -1,4 +1,4 @@
-import {get, post} from 'COMMON/utils/requestUtils';
+import {get, post} from './request';
 import store from './store';
 
 const reducerIndex = {
