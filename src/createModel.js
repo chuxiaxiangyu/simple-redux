@@ -91,11 +91,9 @@ function resolveAsyncOptions(namespace, name, asyncOptions) {
                 dispatch({type: `${namespace}.${name}.${actionName}`, name, status: 'start'});
                 resolveRequest(result)
                     .then((data) => {
-                        result.success && result.success(data);
                         dispatch({type: `${namespace}.${name}.${actionName}`, name, data, status: 'success'});
                     })
                     .catch(err => {
-                        result.fail && result.fail(err);
                         dispatch({type: `${namespace}.${name}.${actionName}`, name, data: err, status: 'fail'});
                     });
             },

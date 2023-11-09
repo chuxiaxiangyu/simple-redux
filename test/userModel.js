@@ -6,12 +6,10 @@ export default createModel({
         initialValue: {},
         asyncOptions: [
             {
-                getUserInfo: (success, fail) => {
+                getUserInfo: () => {
                     return {
                         url: '/user',
-                        method: 'get',
-                        success,
-                        fail,
+                        method: 'get'
                     };
                 },
                 reducers: presetReducer,

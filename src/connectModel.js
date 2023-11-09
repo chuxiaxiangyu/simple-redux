@@ -6,9 +6,7 @@ const connectModel = (models, mapStateToProps) => Cmp => {
         models.forEach(model => {
             model.forEach(item => {
                 Object.keys(item).forEach(key => {
-                    props[key] = (...rest) => {
-                        dispatch(item[key](...rest));
-                    };
+                    props[key] = (...rest) => dispatch(item[key](...rest));
                 });
             });
         });

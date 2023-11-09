@@ -4,7 +4,10 @@ import userModel from './userModel';
 
 function User({userInfo, getUserInfo}) {
     useEffect(() =>{
-        getUserInfo();
+        getUserInfo()
+            .then(data => {
+                console.log(data);
+            })
     }, []);
 
     return (
